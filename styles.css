@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FBDDBB;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.header {
+    max-width: 50%;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.email-section label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+}
+
+.email-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.email-input button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
